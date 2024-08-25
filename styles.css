@@ -6,4 +6,24 @@
     font-family: "Roboto", sans-serif;
 
 }
+nav{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+nav img{
+    width: 100px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list a{
+    text-decoration: none;
+    color: white;
+}
