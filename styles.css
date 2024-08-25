@@ -6,6 +6,11 @@
     font-family: "Roboto", sans-serif;
 
 }
+nav{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 
 .item img{
@@ -48,5 +53,22 @@ table,th,td{
     /*padding: 15px 30px;
     font-size: 1.5rem;
      */
+}
+
+
+nav img{
+    width: 100px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list a{
+    text-decoration: none;
+    color: white;
 }
 
