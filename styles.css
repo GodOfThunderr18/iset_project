@@ -26,3 +26,26 @@ section{
     justify-content: space-around;
 
 }
+
+table{
+    width:40px;
+    text-align: center;
+    margin: 200px auto;
+    background-color:white;
+    color: black;
+}
+
+thead{
+    background-color:gray;
+    color: whitesmoke;
+}
+
+table,th,td{
+    border: 2px solid black;
+     border-collapse: collapse;
+     padding: 5px 5px;
+    /*padding: 15px 30px;
+    font-size: 1.5rem;
+     */
+}
+
